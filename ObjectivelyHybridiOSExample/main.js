@@ -2,7 +2,7 @@ var count = 0
 
 function sendCount(){
     var message = {"count":count}
-    window.webkit.messageHandlers.SOFA.postMessage(message)
+    window.webkit.messageHandlers.SOFAHost.postMessage(message)
 }
 
 function storeAndShow(updatedCount){
@@ -13,17 +13,9 @@ function storeAndShow(updatedCount){
 
 var SOFA = {
 initialize: function() {
-    this.node = "https://localhost"
-
-    setTimeout(function(){ console.log(SOFAHost.getAccounts()) }, 1000);
-    setTimeout(function(){ console.log(SOFAHost.approveTransaction("<transaction data json>")) }, 2000);
-    setTimeout(function(){ console.log(SOFAHost.signTransaction("<transaction data json>")) }, 3000);
-
-    return true
+    setTimeout(function(){ console.log(SOFAHost.getAccounts()); }, 1000);
+    setTimeout(function(){ console.log(SOFAHost.approveTransaction("<transaction data json>")); }, 2000);
+    setTimeout(function(){ console.log(SOFAHost.signTransaction("<transaction data json>")); }, 3000);
+    return true;
 }
-}
-
-var web3 = {
-eth: {},
-shh: {}
 }
