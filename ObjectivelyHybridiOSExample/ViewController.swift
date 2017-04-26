@@ -47,14 +47,11 @@ extension ViewController: WKScriptMessageHandler {
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         guard let method = Method(rawValue: message.name) else { return print("failed \(message.name)") }
         switch method {
-        case .getAccounts: break
+        case .getAccounts:
+            // Here we should return the result
+            break
         case .signTransaction: break
         case .approveTransaction: break
         }
-
-        print("userContentController \(userContentController)")
-        print("message.name \(message.name)")
-        print("message.body \(message.body)")
-        print("---")
    }
 }
