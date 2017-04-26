@@ -1,10 +1,10 @@
-import UIKit
+ import UIKit
 import WebKit
 
 class ViewController: UIViewController {
     lazy var webView: WKWebView = {
         let configuration = WKWebViewConfiguration()
-        configuration.userContentController.add(self, name: "interOp")
+        configuration.userContentController.add(self, name: "SOFA")
 
         let view = WKWebView(frame: self.view.frame, configuration: configuration)
         view.scrollView.isScrollEnabled = true
