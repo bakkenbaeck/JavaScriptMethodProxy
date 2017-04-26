@@ -2,9 +2,17 @@
 import WebKit
 
 class ViewController: UIViewController {
+    enum Method: String {
+        case getAccounts
+        case signTransaction
+        case approveTransaction
+    }
+
     lazy var webView: WKWebView = {
         let configuration = WKWebViewConfiguration()
-        configuration.userContentController.add(self, name: "SOFAHost")
+        configuration.userContentController.add(self, name: Method.getAccounts.rawValue)
+        configuration.userContentController.add(self, name: Method.signTransaction.rawValue)
+        configuration.userContentController.add(self, name: Method.approveTransaction.rawValue)
 
         let view = WKWebView(frame: self.view.frame, configuration: configuration)
         view.scrollView.isScrollEnabled = true
@@ -18,27 +26,35 @@ class ViewController: UIViewController {
 
         self.view.addSubview(self.webView)
 
-        let path = Bundle.main.path(forResource: "index", ofType: "html")!
-        let url = URL(fileURLWithPath: path)
-        let request = URLRequest(url: url)
+        let request = URLRequest(url: URL(string: "http://192.168.1.91:8000")!)
         self.webView.load(request)
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            self.webView.evaluateJavaScript("javascript:SOFA.initialize(true);") { jsReturnValue, error in
+                if let error = error {
+                    print("Error: \(error)")
+                } else if let newCount = jsReturnValue as? Int {
+                    print("Returned value: \(newCount)")
+                } else {
+                    print("No return from JS")
+                }
+            }
+        }
     }
 }
 
 extension ViewController: WKScriptMessageHandler {
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        if let sentData = message.body as? [String: Any] {
-            if let count = sentData["count"] as? Int {
-                self.webView.evaluateJavaScript("storeAndShow(\(count + 1))") { jsReturnValue, error in
-                    if let error = error {
-                        print("Error: \(error)")
-                    } else if let newCount = jsReturnValue as? Int {
-                        print("Returned value: \(newCount)")
-                    } else {
-                        print("No return from JS")
-                    }
-                }
-            }
+        guard let method = Method(rawValue: message.name) else { return print("failed \(message.name)") }
+        switch method {
+        case .getAccounts: break
+        case .signTransaction: break
+        case .approveTransaction: break
         }
-    }
+
+        print("userContentController \(userContentController)")
+        print("message.name \(message.name)")
+        print("message.body \(message.body)")
+        print("---")
+   }
 }

@@ -13,9 +13,6 @@
 		9B482C901A03F59D00E5F5C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B482C8E1A03F59D00E5F5C1 /* LaunchScreen.xib */; };
 		9B482C9C1A03F59D00E5F5C1 /* ObjectivelyHybridiOSExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B482C9B1A03F59D00E5F5C1 /* ObjectivelyHybridiOSExampleTests.m */; };
 		9B482CA61A03F5AE00E5F5C1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B482CA51A03F5AE00E5F5C1 /* WebKit.framework */; };
-		9B482CAF1A03F62E00E5F5C1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 9B482CA81A03F62E00E5F5C1 /* index.html */; };
-		9B482CB01A03F62E00E5F5C1 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 9B482CA91A03F62E00E5F5C1 /* main.css */; };
-		9B482CB11A03F62E00E5F5C1 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B482CAA1A03F62E00E5F5C1 /* main.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +36,6 @@
 		9B482C9A1A03F59D00E5F5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B482C9B1A03F59D00E5F5C1 /* ObjectivelyHybridiOSExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectivelyHybridiOSExampleTests.m; sourceTree = "<group>"; };
 		9B482CA51A03F5AE00E5F5C1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		9B482CA81A03F62E00E5F5C1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		9B482CA91A03F62E00E5F5C1 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
-		9B482CAA1A03F62E00E5F5C1 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +80,6 @@
 			children = (
 				144FE3E61EB0BA2D00CC8D90 /* AppDelegate.swift */,
 				144FE3E41EB0B8E500CC8D90 /* ViewController.swift */,
-				9B482CA81A03F62E00E5F5C1 /* index.html */,
-				9B482CA91A03F62E00E5F5C1 /* main.css */,
-				9B482CAA1A03F62E00E5F5C1 /* main.js */,
 				9B482C8C1A03F59D00E5F5C1 /* Images.xcassets */,
 				9B482C8E1A03F59D00E5F5C1 /* LaunchScreen.xib */,
 				9B482C981A03F59D00E5F5C1 /* ObjectivelyHybridiOSExampleTests */,
@@ -204,9 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B482CB01A03F62E00E5F5C1 /* main.css in Resources */,
-				9B482CAF1A03F62E00E5F5C1 /* index.html in Resources */,
-				9B482CB11A03F62E00E5F5C1 /* main.js in Resources */,
 				9B482C901A03F59D00E5F5C1 /* LaunchScreen.xib in Resources */,
 				9B482C8D1A03F59D00E5F5C1 /* Images.xcassets in Resources */,
 			);
