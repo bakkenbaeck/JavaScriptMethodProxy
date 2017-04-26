@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144FE3E31EB0B5A400CC8D90 /* WebMover.m in Sources */ = {isa = PBXBuildFile; fileRef = 144FE3E11EB0B5A400CC8D90 /* WebMover.m */; };
 		9B482C821A03F59D00E5F5C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B482C811A03F59D00E5F5C1 /* main.m */; };
 		9B482C851A03F59D00E5F5C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B482C841A03F59D00E5F5C1 /* AppDelegate.m */; };
 		9B482C881A03F59D00E5F5C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B482C871A03F59D00E5F5C1 /* ViewController.m */; };
@@ -19,8 +20,6 @@
 		9B482CB01A03F62E00E5F5C1 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 9B482CA91A03F62E00E5F5C1 /* main.css */; };
 		9B482CB11A03F62E00E5F5C1 /* inter.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B482CAA1A03F62E00E5F5C1 /* inter.js */; };
 		9B482CB21A03F62E00E5F5C1 /* someJSLibrary in Resources */ = {isa = PBXBuildFile; fileRef = 9B482CAB1A03F62E00E5F5C1 /* someJSLibrary */; };
-		9B482CB81A03F6F700E5F5C1 /* SwiftlyBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B482CB51A03F6F700E5F5C1 /* SwiftlyBridge.swift */; };
-		9B482CB91A03F6F700E5F5C1 /* WebMover.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B482CB71A03F6F700E5F5C1 /* WebMover.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		144FE3E01EB0B5A400CC8D90 /* WebMover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebMover.h; sourceTree = "<group>"; };
+		144FE3E11EB0B5A400CC8D90 /* WebMover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebMover.m; sourceTree = "<group>"; };
 		9B482C7C1A03F59D00E5F5C1 /* ObjectivelyHybridiOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectivelyHybridiOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B482C801A03F59D00E5F5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B482C811A03F59D00E5F5C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,14 +49,10 @@
 		9B482C9A1A03F59D00E5F5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B482C9B1A03F59D00E5F5C1 /* ObjectivelyHybridiOSExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectivelyHybridiOSExampleTests.m; sourceTree = "<group>"; };
 		9B482CA51A03F5AE00E5F5C1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		9B482CA71A03F62D00E5F5C1 /* ObjectivelyHybridiOSExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectivelyHybridiOSExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		9B482CA81A03F62E00E5F5C1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		9B482CA91A03F62E00E5F5C1 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
 		9B482CAA1A03F62E00E5F5C1 /* inter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inter.js; sourceTree = "<group>"; };
 		9B482CAB1A03F62E00E5F5C1 /* someJSLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = someJSLibrary; sourceTree = "<group>"; };
-		9B482CB51A03F6F700E5F5C1 /* SwiftlyBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftlyBridge.swift; path = ../../SwiftlyBridge.swift; sourceTree = "<group>"; };
-		9B482CB61A03F6F700E5F5C1 /* WebMover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebMover.h; path = ../../WebMover.h; sourceTree = "<group>"; };
-		9B482CB71A03F6F700E5F5C1 /* WebMover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebMover.m; path = ../../WebMover.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,16 +102,14 @@
 				9B482C871A03F59D00E5F5C1 /* ViewController.m */,
 				9B482CA81A03F62E00E5F5C1 /* index.html */,
 				9B482CA91A03F62E00E5F5C1 /* main.css */,
+				144FE3E01EB0B5A400CC8D90 /* WebMover.h */,
+				144FE3E11EB0B5A400CC8D90 /* WebMover.m */,
 				9B482CAA1A03F62E00E5F5C1 /* inter.js */,
 				9B482CAB1A03F62E00E5F5C1 /* someJSLibrary */,
-				9B482CB51A03F6F700E5F5C1 /* SwiftlyBridge.swift */,
-				9B482CB61A03F6F700E5F5C1 /* WebMover.h */,
-				9B482CB71A03F6F700E5F5C1 /* WebMover.m */,
 				9B482C8C1A03F59D00E5F5C1 /* Images.xcassets */,
 				9B482C891A03F59D00E5F5C1 /* Main.storyboard */,
 				9B482C8E1A03F59D00E5F5C1 /* LaunchScreen.xib */,
 				9B482C7F1A03F59D00E5F5C1 /* Supporting Files */,
-				9B482CA71A03F62D00E5F5C1 /* ObjectivelyHybridiOSExample-Bridging-Header.h */,
 			);
 			path = ObjectivelyHybridiOSExample;
 			sourceTree = "<group>";
@@ -189,7 +184,7 @@
 		9B482C741A03F59D00E5F5C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Lee Barney";
 				TargetAttributes = {
 					9B482C7B1A03F59D00E5F5C1 = {
@@ -252,8 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B482C881A03F59D00E5F5C1 /* ViewController.m in Sources */,
-				9B482CB81A03F6F700E5F5C1 /* SwiftlyBridge.swift in Sources */,
-				9B482CB91A03F6F700E5F5C1 /* WebMover.m in Sources */,
+				144FE3E31EB0B5A400CC8D90 /* WebMover.m in Sources */,
 				9B482C851A03F59D00E5F5C1 /* AppDelegate.m in Sources */,
 				9B482C821A03F59D00E5F5C1 /* main.m in Sources */,
 			);
@@ -310,15 +304,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -351,8 +349,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -360,6 +360,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -369,6 +370,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -381,8 +383,8 @@
 				DEVELOPMENT_TEAM = 29X3GG489T;
 				INFOPLIST_FILE = ObjectivelyHybridiOSExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barney.lee.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ObjectivelyHybridiOSExample/ObjectivelyHybridiOSExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -396,8 +398,8 @@
 				DEVELOPMENT_TEAM = 29X3GG489T;
 				INFOPLIST_FILE = ObjectivelyHybridiOSExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barney.lee.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ObjectivelyHybridiOSExample/ObjectivelyHybridiOSExample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -416,6 +418,7 @@
 				);
 				INFOPLIST_FILE = ObjectivelyHybridiOSExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barney.lee.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectivelyHybridiOSExample.app/ObjectivelyHybridiOSExample";
 			};
@@ -431,6 +434,7 @@
 				);
 				INFOPLIST_FILE = ObjectivelyHybridiOSExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barney.lee.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectivelyHybridiOSExample.app/ObjectivelyHybridiOSExample";
 			};

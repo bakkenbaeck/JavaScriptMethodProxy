@@ -23,7 +23,6 @@
 
 #import "ViewController.h"
 #import "WebMover.h"
-#import <ObjectivelyHybridiOSExample-Swift.h>
 
 @interface ViewController ()
 @property (strong, nonatomic)WKWebView *appWebView;
