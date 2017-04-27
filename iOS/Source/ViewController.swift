@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
         self.view.addSubview(self.webView)
 
-        let request = URLRequest(url: URL(string: "http://192.168.1.91:8000")!)
+        let request = URLRequest(url: URL(string: "https://www.tokenbrowser.com/dummy-app")!)
         self.webView.load(request)
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
