@@ -10,7 +10,7 @@ extension AppDelegate: UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         guard let window = self.window else { fatalError("Window not found") }
 
-        let navigationController = UINavigationController(rootViewController: WrapperController(baseURL: "http://192.168.1.91:8000"))
+        let navigationController = UINavigationController(rootViewController: ViewController())
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
